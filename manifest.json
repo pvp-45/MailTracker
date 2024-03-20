@@ -1,0 +1,26 @@
+{
+    "name":"Pvp's Mail Tracker",
+    "description": "Tracks and displays emails from the entire webpage",
+    "version": "1.0",
+    "manifest_version":3,
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "scripting",
+        "activeTab" 
+    ],
+    "host_permissions": [
+        "<all_urls>" 
+    ],
+    "icons":{
+        "16":"icons/logo_16x16.png",
+        "48":"icons/logo_48x48.png",
+        "128":"icons/logo_128x128.png"
+
+    }
+    
+   
+   
+      
+}
